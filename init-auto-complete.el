@@ -28,7 +28,7 @@
                 sass-mode yaml-mode csv-mode espresso-mode haskell-mode
                 html-mode nxml-mode sh-mode smarty-mode clojure-mode
                 lisp-mode textile-mode markdown-mode tuareg-mode
-                css-mode less-css-mode))
+                css-mode less-css-mode php-mode))
   (add-to-list 'ac-modes mode))
 
 
