@@ -1,4 +1,8 @@
-This is an emacs configuration tree that supports a number of
+This is my own emacs confs forked from Steve Purcell's. Thanks for his work!
+
+The followings are come from Steve Purcell
+==========================================
+This is This is an emacs configuration tree that supports a number of
 programming languages, particularly Ruby/Rails and other dynamic
 languages including Clojure, PHP, Python etc.
 

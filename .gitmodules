@@ -19,3 +19,9 @@
 [submodule "site-lisp/flymake-python-pyflakes"]
 	path = site-lisp/flymake-python-pyflakes
 	url = https://github.com/purcell/flymake-python-pyflakes.git
+[submodule "JSLint"]
+	path = JSLint
+	url = https://github.com/douglascrockford/JSLint.git
+[submodule "site-lisp/jslint"]
+	path = site-lisp/jslint
+	url = https://github.com/douglascrockford/JSLint.git
