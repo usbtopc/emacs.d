@@ -95,6 +95,6 @@ source file under ~/.emacs.d/site-lisp/name/"
   (ensure-site-lisp-libs))
 
 
-(ensure-site-lisp-libs)
+;;(ensure-site-lisp-libs)
 
 (provide 'init-site-lisp)
