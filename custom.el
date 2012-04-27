@@ -55,8 +55,8 @@
          (:network-server . "talk.google.com")
          (:connection-type . ssl))))
 
-(global-set-key (kbd "M-P") 'scroll-other-window-down)
-(global-set-key (kbd "M-N") 'scroll-other-window)
+(global-set-key (kbd "M-p") 'scroll-other-window-down)
+(global-set-key (kbd "M-n") 'scroll-other-window)
 
 ;; map key to w3m-browse-url
 (global-set-key (kbd "C-x P") 'w3m-browse-url)
