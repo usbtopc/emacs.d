@@ -68,8 +68,8 @@
 ;;(require 'init-clojure)
 (require 'init-common-lisp)
 
-(when *spell-check-support-enabled*
-  (require 'init-spelling))
+;; (when *spell-check-support-enabled*
+;;   (require 'init-spelling))
 
 ;;(require 'init-marmalade)
 (require 'init-misc)
