@@ -15,9 +15,9 @@
 ;;----------------------------------------------------------------------------
 ;;(require 'init-compat) ;; do not necessary anymore in emacs 24
 (require 'init-utils)
-(require 'init-site-lisp) ;; Must come before elpa, as it may provide package.el
+(require 'init-site-lisp) ;;Must come before elpa, as it may provide package.el
 (require 'init-elpa)
-(require 'init-exec-path) ;; Set up $PATH
+(require 'init-exec-path) ;;Set up $PATH
 (require 'init-frame-hooks)
 ;;(require 'init-xterm)
 ;;(require 'init-themes)
