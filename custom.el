@@ -59,7 +59,7 @@
 (global-set-key (kbd "M-n") 'scroll-other-window)
 
 ;; map key to w3m-browse-url
-(global-set-key (kbd "C-x P") 'w3m-browse-url)
+(global-set-key (kbd "C-x p") 'w3m-browse-url)
 (setq browse-url-browser-function 'w3m-browse-url)
 (autoload 'w3m-browse-url "w3m" "Ask a WWW browser to show a URL." t)
 (global-set-key "\C-xm" 'browse-url-at-point)
