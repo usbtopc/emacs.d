@@ -13,7 +13,7 @@
 ;;----------------------------------------------------------------------------
 ;; Load configs for specific features and modes
 ;;----------------------------------------------------------------------------
-;;(require 'init-compat) ;; do not necessary anymore in emacs 24
+(require 'init-compat) ;; do not necessary anymore in emacs 24
 (require 'init-utils)
 (require 'init-site-lisp) ;;Must come before elpa, as it may provide package.el
 (require 'init-elpa)

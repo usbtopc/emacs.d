@@ -49,12 +49,13 @@
 (toggle-truncate-lines t)
 
 ;; jabber
-(require 'jabber-autoloads)
-(setq jabber-account-list
-      '(("blueabysm@gmail.com"
-         (:network-server . "talk.google.com")
-         (:connection-type . ssl))))
+;; (require 'jabber-autoloads)
+;; (setq jabber-account-list
+;;       '(("blueabysm@gmail.com"
+;;          (:network-server . "talk.google.com")
+;;          (:connection-type . ssl))))
 
+;; scroll the other window
 (global-set-key (kbd "M-p") 'scroll-other-window-down)
 (global-set-key (kbd "M-n") 'scroll-other-window)
 

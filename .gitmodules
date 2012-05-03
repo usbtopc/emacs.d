@@ -13,9 +13,6 @@
 [submodule "site-lisp/lively"]
 	path = site-lisp/lively
 	url = https://github.com/emacsmirror/smarty-mode.git
-[submodule "site-lisp/w3m"]
-	path = site-lisp/w3m
-	url = https://github.com/emacsmirror/w3m.git
 [submodule "site-lisp/auto-complete"]
 	path = site-lisp/auto-complete
 	url = https://github.com/m2ym/auto-complete.git
