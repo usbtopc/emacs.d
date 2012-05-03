@@ -64,3 +64,9 @@
 (setq browse-url-browser-function 'w3m-browse-url)
 (autoload 'w3m-browse-url "w3m" "Ask a WWW browser to show a URL." t)
 (global-set-key "\C-xm" 'browse-url-at-point)
+
+;; disable auto-complete submodule, enable this stable version 1.3.1
+(add-to-list 'load-path "~/.emacs.d/site-lisp/auto-complete")
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/site-lisp/auto-complete/ac-dict")
+(ac-config-default)
