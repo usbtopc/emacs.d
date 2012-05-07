@@ -79,5 +79,6 @@
   "Hides the disturbing '^M' showing up in files containing mixed UNIX and DOS line endings."
   (interactive)
   (setq buffer-display-table (make-display-table))
-  (aset buffer-display-table ?\^M []))
+  (aset buffer-display-table ?\^M [])
+  (message "Hide ^M chars"))
 (global-set-key (kbd "C-c m") 'hide-ctrl-M)

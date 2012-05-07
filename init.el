@@ -41,6 +41,8 @@
 ;;(require 'init-mmm)
 ;;(require 'init-growl)
 
+(require 'init-ecb)
+
 (require 'init-editing-utils)
 
 ;;(require 'init-darcs)
