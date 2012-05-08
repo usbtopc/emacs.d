@@ -40,6 +40,8 @@
 (setq auto-mode-alist (cons '("\\.pjs$" . javascript-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.json$" . javascript-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.txt$" . org-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.nginx$" . conf-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.htaccess$" . conf-mode) auto-mode-alist))
 
 ;; use ediff
 (eval-after-load "vc-hooks"
