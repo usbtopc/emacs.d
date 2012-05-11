@@ -23,8 +23,8 @@
 ;;----------------------------------------------------------------------------
 ;; ido completion in M-x
 ;;----------------------------------------------------------------------------
-(smex-initialize)
-(global-set-key "\M-x" 'smex)
+;; (smex-initialize)
+;; (global-set-key "\M-x" 'smex)
 
 
 (provide 'init-ido)
