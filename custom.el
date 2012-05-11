@@ -85,3 +85,13 @@
   (aset buffer-display-table ?\^M [])
   (message "Hide ^M chars"))
 (global-set-key (kbd "C-c m") 'hide-ctrl-M)
+
+;; sql-mysql ask for port (bind to C-c C-m)
+(defun sql-mysql-with-port (&optional port-p)
+  (interactive "P")
+  (if (not (get-buffer "*SQL*"))
+      (progn
+        (setq sql-mysql-options (list (concat "-P" (read-string "Port: "))))))
+  (call-interactively 'sql-mysql))
+
+(global-set-key (kbd "C-c C-m") 'sql-mysql-with-port)
