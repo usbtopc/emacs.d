@@ -78,13 +78,13 @@
             (c-set-offset 'arglist-close 0)))
 
 ;; hide ^M
-(defun hide-ctrl-M ()
+(defun hide-ctrl-m ()
   "Hides the disturbing '^M' showing up in files containing mixed UNIX and DOS line endings."
   (interactive)
   (setq buffer-display-table (make-display-table))
   (aset buffer-display-table ?\^M [])
   (message "Hide ^M chars"))
-(global-set-key (kbd "C-c m") 'hide-ctrl-M)
+(global-set-key (kbd "C-c m") 'hide-ctrl-m)
 
 ;; sql-mysql ask for port (bind to C-c C-m)
 (defun sql-mysql-with-port (&optional port-p)
