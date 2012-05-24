@@ -16,3 +16,6 @@
 [submodule "site-lisp/ecb"]
 	path = site-lisp/ecb
 	url = git://github.com/blueabysm/ecb.git
+[submodule "site-lisp/htmlize"]
+	path = site-lisp/htmlize
+	url = git://github.com/emacsmirror/htmlize.git

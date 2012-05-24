@@ -95,3 +95,18 @@
   (call-interactively 'sql-mysql))
 
 (global-set-key (kbd "C-c C-m") 'sql-mysql-with-port)
+
+;; disable auto saving (maybe it is the problem that auto-complete crash)
+(setq auto-save-default nil)
+
+;; org-export-as-html
+(global-set-key (kbd "C-c h") 'org-export-as-html)
+
+;; org-mode run code fragment
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '( (perl . t)
+    (ruby . t)
+    (sh . t)
+    (python . t)
+    (emacs-lisp . t)))
