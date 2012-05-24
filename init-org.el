@@ -75,4 +75,16 @@
      (require 'org-fstree)))
 
 
+;; org-export-as-html
+(global-set-key (kbd "C-c h") 'org-export-as-html)
+
+;; org-mode run code fragment
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '( (perl . t)
+    (ruby . t)
+    (sh . t)
+    (python . t)
+    (emacs-lisp . t)))
+
 (provide 'init-org)
