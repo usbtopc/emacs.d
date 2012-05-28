@@ -74,6 +74,8 @@
      ;;(require 'org-checklist)
      (require 'org-fstree)))
 
+;; inner code highlight
+(setq org-src-fontify-natively t)
 
 ;; org-export-as-html
 (global-set-key (kbd "C-c h") 'org-export-as-html)
