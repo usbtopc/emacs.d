@@ -189,6 +189,7 @@ ARCHIVE is the string name of the package archive.")
 (require-package 'session)
 (require-package 'tidy)
 ;;(require-package 'vc-darcs)
+(require-package 'unfill)
 (require-package 'whole-line-or-region)
 
 (provide 'init-elpa)
