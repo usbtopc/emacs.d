@@ -92,9 +92,10 @@
   (if (not (get-buffer "*SQL*"))
       (progn
         (setq sql-mysql-options (list (concat "-P" (read-string "Port: "))))))
-  (call-interactively 'sql-mysql))
+  (call-interactively 'sql-mysql)
+)
 
-(global-set-key (kbd "C-c C-m") 'sql-mysql-with-port)
+(global-set-key (kbd "C-c C-j") 'sql-mysql-with-port)
 
 ;; disable auto saving (maybe it is the problem that auto-complete crash)
 (setq auto-save-default nil)

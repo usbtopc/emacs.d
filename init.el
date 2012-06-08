@@ -1,6 +1,6 @@
 ;; -*- coding: utf-8 -*-
 (add-to-list 'load-path (expand-file-name "~/.emacs.d"))
-(add-to-list 'load-path (expand-file-name "~/.emacs.d/more")) ;; other exts which are not on elpa, installed alone
+;;(add-to-list 'load-path (expand-file-name "~/.emacs.d/more")) ;; other exts which are not on elpa, installed alone
 
 ;;----------------------------------------------------------------------------
 ;; Which functionality to enable (use t or nil for true and false)
@@ -76,8 +76,7 @@
 
 ;;(require 'init-marmalade)
 (require 'init-misc)
-
-(require 'init-sql-completion)
+;;(require 'init-sql-completion)
 
 ;;----------------------------------------------------------------------------
 ;; Allow access from emacsclient
