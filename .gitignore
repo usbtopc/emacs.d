@@ -19,4 +19,8 @@ cookies
 /elpa
 site-lisp/package/
 /swank
+<<<<<<< HEAD
 /abbrev_defs
+=======
+/abbrev_defs
+>>>>>>> macosx
