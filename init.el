@@ -145,6 +145,8 @@
             (message "init completed in %.2fms"
                      (sanityinc/time-subtract-millis after-init-time before-init-time))))
 
+;; Customizations
+(require 'init-keybindings)
 
 (provide 'init)
 
