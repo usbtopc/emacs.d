@@ -30,7 +30,8 @@
           (setq url-proxy-services
                 (append (assq-delete-all-with-test proto url-proxy-services #'equal)
                         (if (not (equal "" proxy)) (list (cons proto (extract-host-and-port proxy)))))))
-    (message "proxy variables updated")))
+    (message "proxy variables updated"))
+  (mac-set-proxy-vars))
 
 
 (provide 'init-proxies)
