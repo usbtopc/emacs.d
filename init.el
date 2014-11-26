@@ -147,6 +147,7 @@
 
 ;; Customizations
 (require 'init-keybindings)
+(require 'init-look)
 
 (provide 'init)
 
