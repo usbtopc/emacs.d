@@ -86,12 +86,12 @@
 (diminish 'undo-tree-mode)
 
 
-(require-package 'highlight-symbol)
-(dolist (hook '(prog-mode-hook html-mode-hook css-mode-hook))
-  (add-hook hook 'highlight-symbol-mode)
-  (add-hook hook 'highlight-symbol-nav-mode))
-(eval-after-load 'highlight-symbol
-  '(diminish 'highlight-symbol-mode))
+;; (require-package 'highlight-symbol)
+;; (dolist (hook '(prog-mode-hook html-mode-hook css-mode-hook))
+;;   (add-hook hook 'highlight-symbol-mode)
+;;   (add-hook hook 'highlight-symbol-nav-mode))
+;; (eval-after-load 'highlight-symbol
+;;   '(diminish 'highlight-symbol-mode))
 
 ;;----------------------------------------------------------------------------
 ;; Zap *up* to char is a handy pair for zap-to-char
