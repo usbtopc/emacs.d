@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: self::json_result(...)
+# key: jr
+# --
+self::json_result(${1:true}${2:, '${3:OK}'}${4:, ${5:0}}${6:, ${7:array()}});

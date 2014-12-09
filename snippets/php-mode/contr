@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: class name_controller extends swap\controller {...}
+# key: contr
+# --
+use swap\visitor;
+class ${1:name}_controller extends swap\controller {
+    $2
+}

@@ -148,6 +148,7 @@
 ;; Customizations
 (require 'init-keybindings)
 (require 'init-look)
+(require 'init-yasnippet)
 
 (provide 'init)
 

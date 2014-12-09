@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: protected function name(args) {...}
+# key: pf
+# --
+protected function ${1:name}(${2:args}) {
+    $3
+}

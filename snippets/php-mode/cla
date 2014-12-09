@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: class name extends parent {...}
+# key: cla
+# --
+class ${1:name} extends ${2:parent} {
+    $3
+}

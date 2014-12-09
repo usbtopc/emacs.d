@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: public static function name(args) {...}
+# key: psf
+# --
+public static function ${1:name}(${2:args}) {
+    $3
+}

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: self::show_page();
+# key: shp
+# --
+self::show_page(${1:});

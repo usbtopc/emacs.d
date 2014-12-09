@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: public function name(args) {...}
+# key: pf
+# --
+public function ${1:name}(${2:args}) {
+    $3
+}
