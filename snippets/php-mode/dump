@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: swap\debug::dump(...)
+# key: sdd
+# --
+swap\debug::dump($0);

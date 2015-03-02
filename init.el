@@ -149,6 +149,7 @@
 (require 'init-keybindings)
 (require 'init-look)
 (require 'init-yasnippet)
+(require 'init-rsync)
 
 (provide 'init)
 

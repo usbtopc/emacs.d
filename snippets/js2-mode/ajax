@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: $.ajax({...});
+# key: ajax
+# --
+$.ajax({
+  type:'${1:post}',
+  url:'${2:/data/post}',
+  dataType:'${3:json}',
+  data:{${4:}},
+  success:function(${5:response}){
+    $0
+  }
+});

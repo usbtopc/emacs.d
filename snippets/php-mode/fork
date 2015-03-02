@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: foreach ($array as $k => $v) {...}
+# key: fork
+# --
+foreach (${1:$array} as ${2:$k} => ${3:$v}) {
+    $0
+}

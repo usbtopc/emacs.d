@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: class model extends swap\rdb_model
+# key: rdb
+# --
+class ${1:model_name} extends swap\rdb_model {
+    $0
+}
